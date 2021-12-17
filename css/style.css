@@ -226,33 +226,52 @@ ul li:hover {
   margin-top: 30px;
 }
 
+.video-section .container .row .video-text .text-with-icon span {
+  color: gray;
+  font-size: 17px;
+  margin-left: 15px;
+}
+
 .team {
   margin-top: 100px;
   height: 600px;
 }
 
-.team .container .row #experts-title {
+.team .container #experts-title {
   font-size: 35px;
   font-family: 'Playfair Display', serif;
   margin-left: 450px;
 }
 
-.team .container .row .experts-text {
+.team .container #experts-text1 {
   margin-left: 300px;
   color: rgba(102, 101, 101, 0.856);
   font-family: 'Playfair Display', serif;
   font-size: 17px;
 }
 
-.team .container .row .experts-text #experts-text2 {
-  margin-left: 100px;
+.team .container #experts-text2 {
+  margin-left: 400px;
+  color: rgba(102, 101, 101, 0.856);
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
 }
 
 .team .container .row .experts-image {
   margin-top: 60px;
+  padding-bottom: 100px;
 }
 
 .team .container .row .experts-image #name {
-  margin-top: 10px;
+  margin-left: 60px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  color: black;
+}
+
+.team .container .row .experts-image #speciality {
+  margin-left: 90px;
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */

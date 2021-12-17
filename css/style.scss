@@ -195,6 +195,11 @@
                 }
                 .text-with-icon{
                     margin-top: 30px;
+                    span{
+                        color: gray;
+                        font-size: 17px;
+                        margin-left: 15px;
+                    }
                 }
             }
         }
@@ -204,25 +209,37 @@
     margin-top: 100px;
     height: 600px;
     .container{
+        #experts-title{
+            font-size: 35px;
+            font-family: 'Playfair Display', serif;
+            margin-left: 450px;
+        }
+        #experts-text1{
+            margin-left: 300px;
+            color: rgba(102, 101, 101, 0.856);
+            font-family: 'Playfair Display', serif;
+            font-size: 17px;
+        }
+        #experts-text2{
+            margin-left: 400px;
+            color: rgba(102, 101, 101, 0.856);
+            font-family: 'Playfair Display', serif;
+            font-size: 17px;
+        }
         .row{
-            #experts-title{
-                font-size: 35px;
-                font-family: 'Playfair Display', serif;
-                margin-left: 450px;
-            }
-            .experts-text{
-                margin-left: 300px;
-                color: rgba(102, 101, 101, 0.856);
-                font-family: 'Playfair Display', serif;
-                font-size: 17px;
-                #experts-text2{
-                    margin-left: 100px;
-                }
-            }
             .experts-image{
                 margin-top: 60px;
-                #name{
-                    margin-top: 10px;
+                padding-bottom: 100px;
+               #name{
+                    margin-left: 60px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bold;
+                    font-size: 14px;
+                    color: black;
+                }
+                #speciality{
+                    margin-left: 90px;
+                    color: gray;
                 }
             }
         }
