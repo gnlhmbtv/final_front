@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar {
+  height: 120px;
+}
+
+.navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.navbar .logo-img {
+  height: 5%;
+  width: 200px;
+  margin-left: 100px;
+}
+
+.navbar .navbar-collapse {
+  margin-left: 80px;
+}
+
+.carousel {
+  position: relative;
+}
+
+.carousel .carousel-inner .carousel-item > img {
+  -webkit-animation: zoomin 15s linear infinite;
+          animation: zoomin 15s linear infinite;
+  width: 400px;
+}
+
+.carousel .carousel-inner .text {
+  position: absolute;
+  margin-top: 60px;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.carousel .carousel-inner .text #black-slider-text-1 {
+  margin-left: 100px;
+}
+
+.carousel .carousel-inner .text #red-slider-text {
+  margin-left: 5px;
+}
+
+.carousel .carousel-inner .text #black-slider-text-2 {
+  margin-left: 5px;
+}
+
+.carousel .carousel-inner .text #black-slider-text-3 {
+  margin-left: 100px;
+}
+
+.carousel .carousel-inner .text p {
+  margin-left: 100px;
+  width: 450px;
+  color: gray;
+  font-size: 18px;
+  margin-top: 15px;
+}
+
+.carousel .carousel-inner .text img {
+  margin-left: 100px;
+}
+
+@-webkit-keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes zoomin {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.07);
+            transform: scale(1.07);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+#tabs .container .row .tab-content:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+}
+
+#tabs .container .row .tab-content:hover .tab-pane h5 {
+  font-size: 15px;
+  color: #555050;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 45px;
+}
+
+.container {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.container .portfolio-menu {
+  font-family: sans-serif;
+  font-size: small;
+  margin-top: 60px;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li:hover {
+  color: #af0a0a;
+}
+
+.container .row .item .col .card {
+  position: relative;
+  border: 0;
+}
+
+.container .row .item .col .card .card-body h5 {
+  margin-left: 55px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container .row .item .col .card .card-body .card-text.dollar {
+  margin-left: 80px;
+}
+
+.container .row .item .col .card .status-sold {
+  width: 60px;
+  height: 30px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin: 15px 15px;
+  padding-left: 12px;
+  padding-top: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container .row .item .col .card .status-sale {
+  width: 60px;
+  height: 30px;
+  background: white;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  margin: 15px 15px;
+  padding-left: 12px;
+  padding-top: 1px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.video-section {
+  background: #f7f7f7;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.video-section .container .row .video {
+  margin-top: 130px;
+}
+
+.video-section .container .row .video:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.video-section .container .row .video-text {
+  margin-top: 130px;
+  width: 480px;
+  margin-left: 30px;
+  font-family: 'Playfair Display', serif;
+}
+
+.video-section .container .row .video-text .text-section .title {
+  font-size: 40px;
+}
+
+.video-section .container .row .video-text .text-section .title #red {
+  color: red;
+}
+
+.video-section .container .row .video-text .text-section .text {
+  margin-top: 30px;
+  color: gray;
+  font-family: 'Playfair Display', serif;
+  width: 400px;
+  font-size: 17px;
+}
+
+.video-section .container .row .video-text .text-with-icon {
+  margin-top: 30px;
+}
+
+.team {
+  margin-top: 100px;
+  height: 600px;
+}
+
+.team .container .row #experts-title {
+  font-size: 35px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 450px;
+}
+
+.team .container .row .experts-text {
+  margin-left: 300px;
+  color: rgba(102, 101, 101, 0.856);
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+}
+
+.team .container .row .experts-text #experts-text2 {
+  margin-left: 100px;
+}
+
+.team .container .row .experts-image {
+  margin-top: 60px;
+}
+
+.team .container .row .experts-image #name {
+  margin-top: 10px;
+}
+/*# sourceMappingURL=style.css.map */
