@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus{
+    outline: none;
+}
  .navbar{
      height: 120px;
      .dropdown:hover  {
@@ -245,7 +248,7 @@
         }
     }
 }
-.parallax{
+#parallax{
     background: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -264,16 +267,104 @@
             }
         }
         .submit-email{
-            display: table;
             text-align: center;
-            #email{
+            .email{
                 display: inline;
-                vertical-align: top;
-                width: 99%;
+                #email{
+                    vertical-align: top;
+                    width: 360px;
+                    height: 60px;
+                    float: left;
+                    margin-left: 400px;
+                    padding: 15px;
+                    font-size: 14px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bolder;
+                }
             }
-            #submit{
-                display: inline;
+            .submit{
+                #submit{
+                    display: inline;
+                    float: left;
+                    height: 60px;
+                    border: 0;
+                    width: 160px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bolder;
+                }
             }
         }
     }
+}
+
+#blog-section{
+    background-color: #f8f8f8;
+    height: 750px;
+    .blog{
+        .container{
+            #blog-title{
+                font-family: 'Playfair Display', serif;
+                padding-top: 90px;
+                margin-left: 400px;
+            }
+           .blog-text{
+               margin-top: 30px;
+               color: gray;
+            #blog-text1{
+                font-family: 'Playfair Display', serif;
+                margin-left: 300px;
+                font-size: 17px;
+            }
+            #blog-text2{
+                font-family: 'Playfair Display', serif;
+                margin-left: 410px;
+                font-size: 17px;
+            }
+           }
+           .row{
+               margin-top: 80px;
+               .col-lg-4{
+                   position: relative;
+                   img{
+                       position: absolute;
+                   }
+                .date{
+                    position: absolute;
+                    z-index: 5555;
+                    width: 100px;
+                    font-size: 13px;
+                    padding: 5px;
+                    margin-left: 10px;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: bolder;
+                    background-color: white;
+                    margin-top: 10px;
+                    height: 30px;
+                    p{
+                        margin-left: 10px;
+                        z-index: 1;
+                    }
+                }
+                #title{
+                    position: absolute;
+                    z-index: 9999;
+                    margin-top: 250px;
+                    font-size: 20px;
+                    font-family: 'Playfair Display', serif;
+                    margin-left: 120px;
+                }
+                #statement{
+                    position: absolute;
+                    z-index: 9999;
+                    margin-top: 290px;
+                    width: 300px;
+                    margin-left: 50px;
+                    font-family: 'Playfair Display', serif;
+                    color: gray;
+                }
+               }
+           }
+        }
+    }
+
 }

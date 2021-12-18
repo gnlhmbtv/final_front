@@ -5,6 +5,10 @@
           box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 .navbar {
   height: 120px;
 }
@@ -275,7 +279,7 @@ ul li:hover {
   color: gray;
 }
 
-.parallax {
+#parallax {
   background: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -283,29 +287,122 @@ ul li:hover {
   height: 550px;
 }
 
-.parallax .parallax-inner .text {
+#parallax .parallax-inner .text {
   padding-top: 200px;
   padding-left: 500px;
 }
 
-.parallax .parallax-inner .text span {
+#parallax .parallax-inner .text span {
   color: white;
   font-family: 'Playfair Display', serif;
   font-size: 30px;
 }
 
-.parallax .parallax-inner .submit-email {
-  display: table;
+#parallax .parallax-inner .submit-email {
   text-align: center;
 }
 
-.parallax .parallax-inner .submit-email #email {
+#parallax .parallax-inner .submit-email .email {
   display: inline;
-  vertical-align: top;
-  width: 99%;
 }
 
-.parallax .parallax-inner .submit-email #submit {
+#parallax .parallax-inner .submit-email .email #email {
+  vertical-align: top;
+  width: 360px;
+  height: 60px;
+  float: left;
+  margin-left: 400px;
+  padding: 15px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+#parallax .parallax-inner .submit-email .submit #submit {
   display: inline;
+  float: left;
+  height: 60px;
+  border: 0;
+  width: 160px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+#blog-section {
+  background-color: #f8f8f8;
+  height: 750px;
+}
+
+#blog-section .blog .container #blog-title {
+  font-family: 'Playfair Display', serif;
+  padding-top: 90px;
+  margin-left: 400px;
+}
+
+#blog-section .blog .container .blog-text {
+  margin-top: 30px;
+  color: gray;
+}
+
+#blog-section .blog .container .blog-text #blog-text1 {
+  font-family: 'Playfair Display', serif;
+  margin-left: 300px;
+  font-size: 17px;
+}
+
+#blog-section .blog .container .blog-text #blog-text2 {
+  font-family: 'Playfair Display', serif;
+  margin-left: 410px;
+  font-size: 17px;
+}
+
+#blog-section .blog .container .row {
+  margin-top: 80px;
+}
+
+#blog-section .blog .container .row .col-lg-4 {
+  position: relative;
+}
+
+#blog-section .blog .container .row .col-lg-4 img {
+  position: absolute;
+}
+
+#blog-section .blog .container .row .col-lg-4 .date {
+  position: absolute;
+  z-index: 5555;
+  width: 100px;
+  font-size: 13px;
+  padding: 5px;
+  margin-left: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  background-color: white;
+  margin-top: 10px;
+  height: 30px;
+}
+
+#blog-section .blog .container .row .col-lg-4 .date p {
+  margin-left: 10px;
+  z-index: 1;
+}
+
+#blog-section .blog .container .row .col-lg-4 #title {
+  position: absolute;
+  z-index: 9999;
+  margin-top: 250px;
+  font-size: 20px;
+  font-family: 'Playfair Display', serif;
+  margin-left: 120px;
+}
+
+#blog-section .blog .container .row .col-lg-4 #statement {
+  position: absolute;
+  z-index: 9999;
+  margin-top: 290px;
+  width: 300px;
+  margin-left: 50px;
+  font-family: 'Playfair Display', serif;
+  color: gray;
 }
 /*# sourceMappingURL=style.css.map */

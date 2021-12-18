@@ -24,7 +24,7 @@
 
 <body>
   <!-- navbar start -->
-  <section>
+  <section id="navbar">
     <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo-img" src="./img/logo_white.png" alt=""></a>
@@ -77,10 +77,8 @@
     </nav>
   </section>
   <!-- navbar end -->
-
-
   <!-- carousel start -->
-  <section>
+  <section id="carousel">
     <div id="carouselExampleCaptions" class="carousel slide col-lg-12 col-md-12 col-sm-12" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -123,99 +121,98 @@
     </div>
   </section>
   <!-- carousel end -->
-
   <!-- main page tabmenu start -->
-  <div class="container">
-    <div class="portfolio-menu col-lg-6 col-md-6 col-sm-12">
-      <ul>
-        <li class="active" data-filter="*">ALL</li>
-        <li data-filter=".popular">POPULAR</li>
-        <li data-filter=".winter">WINTER</li>
-        <li data-filter=".various">VARIOUS</li>
-        <li data-filter=".exotic">EXOTIC</li>
-        <li data-filter=".greens">GREENS</li>
-        <li data-filter=".cactuses">CACTUSES</li>
-      </ul>
-    </div>
-    <div class="row row-cols-1 row-cols-md-4 g-4 portfolio-item">
-      <div class="item popular winter">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/shop-7-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">MAJESTY PALM</h5>
-              <span class="card-text dollar">$</span><span class="card-text price">259</span>
+  <section id="tabmenu">
+    <div class="container">
+      <div class="portfolio-menu col-lg-6 col-md-6 col-sm-12">
+        <ul>
+          <li class="active" data-filter="*">ALL</li>
+          <li data-filter=".popular">POPULAR</li>
+          <li data-filter=".winter">WINTER</li>
+          <li data-filter=".various">VARIOUS</li>
+          <li data-filter=".exotic">EXOTIC</li>
+          <li data-filter=".greens">GREENS</li>
+          <li data-filter=".cactuses">CACTUSES</li>
+        </ul>
+      </div>
+      <div class="row row-cols-1 row-cols-md-4 g-4 portfolio-item">
+        <div class="item popular winter">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/shop-7-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">MAJESTY PALM</h5>
+                <span class="card-text dollar">$</span><span class="card-text price">259</span>
+              </div>
             </div>
           </div>
         </div>
+        <div class="item winter popular">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/shop-8-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">FOXGLOVE FLOWER</h5>
+                <span class="card-text dollar">$</span><span class="card-text price">259</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item various popular winter cactuses">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/shop-9-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SWEET ALYSSUM</h5>
+                <span class="card-text dollar">$</span><span class="card-text price">259</span>
+              </div>
+              <div class="status-sold">Sold</div>
+            </div>
+          </div>
+        </div>
+        <div class="item exotic popular greens">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/shop-10-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">SPRING SNOWFLAKE</h5>
+                <span class="card-text dollar">$</span><span class="card-text price">170</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item greens popular">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/shop-11-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">SCARLET SAGE</h5>
+                <span class="card-text dollar" style="text-decoration: line-through;">$</span><span
+                  class="card-text price" style="text-decoration: line-through;">259</span>
+                <span class="card-text">$</span><span class="card-text price">159</span>
+              </div>
+              <div class="status-sale">Sale</div>
+            </div>
+          </div>
+        </div>
+        <div class="item cactuses exotic">
+          <div class="col">
+            <div class="card h-100">
+              <img src="./img/shop-12-img.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ROCK SOAPWORT</h5>
+                <span class="card-text dollar">$</span><span class="card-text price">259</span>
 
-      </div>
-      <div class="item winter popular">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/shop-8-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">FOXGLOVE FLOWER</h5>
-              <span class="card-text dollar">$</span><span class="card-text price">259</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item various popular winter cactuses">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/shop-9-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">SWEET ALYSSUM</h5>
-              <span class="card-text dollar">$</span><span class="card-text price">259</span>
-            </div>
-            <div class="status-sold">Sold</div>
-          </div>
-        </div>
-      </div>
-      <div class="item exotic popular greens">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/shop-10-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title ">SPRING SNOWFLAKE</h5>
-              <span class="card-text dollar">$</span><span class="card-text price">170</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item greens popular">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/shop-11-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">SCARLET SAGE</h5>
-              <span class="card-text dollar" style="text-decoration: line-through;">$</span><span
-                class="card-text price" style="text-decoration: line-through;">259</span>
-              <span class="card-text">$</span><span class="card-text price">159</span>
-            </div>
-            <div class="status-sale">Sale</div>
-          </div>
-        </div>
-      </div>
-      <div class="item cactuses exotic">
-        <div class="col">
-          <div class="card h-100">
-            <img src="./img/shop-12-img.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">ROCK SOAPWORT</h5>
-              <span class="card-text dollar">$</span><span class="card-text price">259</span>
-
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <!-- tabmenu end -->
-
   <!-- videolu section start -->
-  <section>
+  <section id="video">
     <div class="video-section col-sm-12">
       <div class="container">
         <div class="row">
@@ -247,9 +244,8 @@
     </div>
   </section>
   <!-- videolu section end -->
-
   <!-- team section start -->
-  <section>
+  <section id="team">
     <div class="team">
       <div class="container">
         <span id="experts-title">Flower Experts</span>
@@ -283,32 +279,69 @@
     </div>
   </section>
   <!-- team section end -->
-
-
-  <section class="parallax">
+  <!-- parallax section start -->
+  <section id="parallax">
     <div class="parallax-inner">
       <div class="text">
         <span>Join The Colorful Bunch!</span><br><br>
       </div>
-      <!-- <div class="email">
-        <input type="email" placeholder="Email Address" id="email">
-        <input type="submit" value="Subscribe" id="submit">
-      </div> -->
       <form action="">
         <div class="submit-email">
           <div class="email">
-            <input type="email" name="" id="email" placeholder="Email Address">
+            <input type="email" name="" id="email" required placeholder="Email Address">
           </div>
           <div class="submit">
-            <input type="submit" value="Subscribe" id="submit" style="background-color: red; color: white;">
+            <input type="submit" value="Subscribe" id="submit"
+              style="background-color: rgb(243, 79, 63); color: white;">
           </div>
         </div>
       </form>
     </div>
   </section>
+  <!-- parallax section end -->
+  <!-- blog section start -->
+  <section id="blog-section">
+    <div class="blog">
+      <div class="container">
+        <h1 id="blog-title">From our Blog</h1>
+        <div class="col-lg-12 col-md-12 blog-text">
+          <span id="blog-text1">A perfect blend of creativity, energy, communication, happiness</span><br>
+          <span id="blog-text2"> and love. Let us arrange a smile for you.</span>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="./img/blog-feature-img-1.jpg" width="360px" height="230px" alt="">
+            <div class="date">
+              <p id="date">27.04.2018</p>
+            </div>
+            <span id="title">Flower Power</span>
+            <span id="statement">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</span>
+          </div>
+          <div class="col-lg-4">
+            <img src="./img/blog-feature-img-3.jpg" width="360px" height="230px" alt="">
+            <div class="date">
+              <p id="date">03.05.2018</p>
+            </div>
+            <span id="title">Local Florists</span>
+            <span id="statement">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</span>
+          </div>
+          <div class="col-lg-4">
+            <img src="./img/blog-feature-img-4.jpg" width="360px" height="230px" alt="">
+            <div class="date">
+              <p id="date">03.05.2018</p>
+            </div>
+            <span id="title">Flower Beauty</span>
+            <span id="statement">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- blog section end -->
 
   <section>
-    <div class="absd" style="height: 600px; background-color: rgb(255, 255, 255);" ></div>
+    <div class="absd" style="height: 600px; background-color: rgb(255, 255, 255);"></div>
   </section>
 
 </body>
