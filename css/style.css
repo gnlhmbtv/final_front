@@ -9,59 +9,59 @@
   outline: none;
 }
 
-.navbar {
+#navbar .navbar {
   height: 120px;
 }
 
-.navbar .dropdown:hover .dropdown-menu {
+#navbar .navbar .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
 
-.navbar .logo-img {
+#navbar .navbar .logo-img {
   height: 5%;
   width: 200px;
   margin-left: 100px;
 }
 
-.navbar .navbar-collapse {
+#navbar .navbar .navbar-collapse {
   margin-left: 80px;
 }
 
-.carousel {
+#carousel .carousel {
   position: relative;
 }
 
-.carousel .carousel-inner .carousel-item > img {
+#carousel .carousel .carousel-inner .carousel-item > img {
   -webkit-animation: zoomin 15s linear infinite;
           animation: zoomin 15s linear infinite;
   width: 400px;
 }
 
-.carousel .carousel-inner .text {
+#carousel .carousel .carousel-inner .text {
   position: absolute;
   margin-top: 60px;
   font-size: 40px;
   font-family: 'Playfair Display', serif;
 }
 
-.carousel .carousel-inner .text #black-slider-text-1 {
+#carousel .carousel .carousel-inner .text #black-slider-text-1 {
   margin-left: 100px;
 }
 
-.carousel .carousel-inner .text #red-slider-text {
+#carousel .carousel .carousel-inner .text #red-slider-text {
   margin-left: 5px;
 }
 
-.carousel .carousel-inner .text #black-slider-text-2 {
+#carousel .carousel .carousel-inner .text #black-slider-text-2 {
   margin-left: 5px;
 }
 
-.carousel .carousel-inner .text #black-slider-text-3 {
+#carousel .carousel .carousel-inner .text #black-slider-text-3 {
   margin-left: 100px;
 }
 
-.carousel .carousel-inner .text p {
+#carousel .carousel .carousel-inner .text p {
   margin-left: 100px;
   width: 450px;
   color: gray;
@@ -69,7 +69,7 @@
   margin-top: 15px;
 }
 
-.carousel .carousel-inner .text img {
+#carousel .carousel .carousel-inner .text img {
   margin-left: 100px;
 }
 
@@ -404,5 +404,38 @@ ul li:hover {
   margin-left: 50px;
   font-family: 'Playfair Display', serif;
   color: gray;
+}
+
+#florist-slider .florist-slider {
+  padding-left: 400px;
+  height: 500px;
+}
+
+#florist-slider .florist-slider .container .row .carousel .carousel-inner .carousel-item img {
+  width: 100px !important;
+  height: 100px;
+}
+
+#footer {
+  background-color: #fefaf3;
+}
+
+#footer .footer .col {
+  margin-left: 50px;
+}
+
+#footer .footer .col h5 {
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#footer .footer .col ul {
+  margin-top: 25px;
+}
+
+#footer .footer .col ul li {
+  font-size: 14px;
+  color: #a19f9f;
 }
 /*# sourceMappingURL=style.css.map */
