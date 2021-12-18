@@ -245,3 +245,35 @@
         }
     }
 }
+.parallax{
+    background: url("https://fiorello.qodeinteractive.com/wp-content/uploads/2018/05/h3-background-img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 1400px;
+    height: 550px;
+    .parallax-inner{
+        // padding-top: 30%;
+        // padding-bottom: 60%;
+        .text{
+            padding-top: 200px;
+            padding-left: 500px;
+            span{
+                color: white;
+                font-family: 'Playfair Display', serif;
+                font-size: 30px;
+            }
+        }
+        .submit-email{
+            display: table;
+            text-align: center;
+            #email{
+                display: inline;
+                vertical-align: top;
+                width: 99%;
+            }
+            #submit{
+                display: inline;
+            }
+        }
+    }
+}
