@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+#navbar .navbar {
+  height: 120px;
+}
+
+#navbar .navbar .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+#navbar .navbar .logo-img {
+  height: 5%;
+  width: 200px;
+  margin-left: 100px;
+}
+
+#navbar .navbar .navbar-collapse {
+  margin-left: 80px;
+}
+
+#title .title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+#accordion .container .row .accordion {
+  margin-top: 100px;
+}
+
+#accordion .container .row .accordion .accordion-item .accordion-header #leftTopButtonClickOne {
+  background-color: #f34f3f;
+  color: white;
+}
+
+#accordion .container .row .accordion .accordion-item .accordion-header #rightTopButtonClickOne {
+  background-color: #f34f3f;
+  color: white;
+}
+/*# sourceMappingURL=accordion.css.map */

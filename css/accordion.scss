@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+ #navbar{
+    .navbar{
+        height: 120px;
+        .dropdown:hover  {
+           .dropdown-menu{
+               display: block;
+               margin-top: 0;
+           }
+        }
+        .logo-img{
+           height: 5%;
+           width: 200px;
+           margin-left: 100px;
+       }
+       .navbar-collapse{
+           margin-left: 80px;
+       }
+    }
+ }
+ #title{
+     .title{
+         h1{
+            font-family: 'Playfair Display', serif;
+            font-size: 60px;
+            padding-top:80px ;
+            padding-left: 80px;
+         }
+     }
+ }
+ #accordion{
+     .container{
+         .row{
+             .accordion{
+                 margin-top: 100px;
+                 .accordion-item{
+                     .accordion-header{
+                         #leftTopButtonClickOne{
+                             background-color: rgb(243,79,63);
+                             color: white;
+                         }
+                         #rightTopButtonClickOne{
+                             background-color: rgb(243,79,63);
+                             color: white;
+                         }
+                     }
+                 }
+             }
+         }
+     }
+ }
