@@ -179,6 +179,7 @@
             }
             .video:hover{
                 transform: scale(1.02);
+                overflow: hidden;
             }
             .video-text{
                 margin-top: 130px;
@@ -259,8 +260,6 @@
     max-width: 1400px;
     height: 550px;
     .parallax-inner{
-        // padding-top: 30%;
-        // padding-bottom: 60%;
         .text{
             padding-top: 200px;
             padding-left: 500px;
@@ -437,3 +436,19 @@
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

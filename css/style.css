@@ -201,6 +201,7 @@ ul li:hover {
 .video-section .container .row .video:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+  overflow: hidden;
 }
 
 .video-section .container .row .video-text {
