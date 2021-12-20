@@ -9,23 +9,27 @@
   outline: none;
 }
 
-#navbar .navbar {
+.navbar {
+  margin-left: 150px;
+}
+
+.navbar .nav-item {
+  margin-left: 40px;
+}
+
+.navbar {
+  background-color: #fff !important;
+  padding: 20px 0px;
   height: 120px;
 }
 
-#navbar .navbar .dropdown:hover .dropdown-menu {
+.navbar-nav li:hover > ul.dropdown-menu {
   display: block;
-  margin-top: 0;
+  margin-left: 20px;
 }
 
-#navbar .navbar .logo-img {
-  height: 5%;
-  width: 200px;
-  margin-left: 100px;
-}
-
-#navbar .navbar .navbar-collapse {
-  margin-left: 80px;
+.navbar-nav .nav-item .dropdown-menu .submenu {
+  margin-left: 170px;
 }
 
 #carousel .carousel {

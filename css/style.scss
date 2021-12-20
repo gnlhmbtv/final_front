@@ -6,27 +6,55 @@
 *:focus{
     outline: none;
 }
- #navbar{
-    .navbar{
-        height: 120px;
-        .dropdown:hover  {
-           .dropdown-menu{
-               display: block;
-               margin-top: 0;
-           }
-        }
-        .logo-img{
-           height: 5%;
-           width: 200px;
-           margin-left: 100px;
-       }
-       .navbar-collapse{
-           margin-left: 80px;
-       }
-    }
-    
- }
+
+//  #navbar{
+//     .navbar{
+//         height: 120px;
+//         .dropdown:hover  {
+//            .dropdown-menu{
+//                display: block;
+//                margin-top: 0;
+//            }
+//         }
+//         .logo-img{
+//            height: 5%;
+//            width: 200px;
+//            margin-left: 100px;
+//        }
+//        .navbar-collapse{
+//            margin-left: 80px;
+//        }
+//     }
+//  }
  
+.navbar{
+    margin-left: 150px;
+    .nav-item{
+        margin-left: 40px;
+    }
+}
+
+.navbar{
+    background-color: #fff !important;
+    padding: 20px 0px;
+    height: 120px;
+}
+.navbar-nav li:hover>ul.dropdown-menu{
+    display: block;
+    margin-left: 20px;
+}
+.navbar-nav{
+    .nav-item{
+        .dropdown-menu{
+            .submenu{
+                margin-left: 170px;
+            }
+        }
+    }
+}
+.dropdown-submenu{
+    
+}
 #carousel{
     .carousel{
         position: relative;
