@@ -33,8 +33,44 @@
   margin-left: 0px;
 }
 
+.navbar-nav a {
+  position: relative;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  padding: 0 1px;
+}
+
+.navbar-nav a:after {
+  content: "";
+  position: absolute;
+  background-color: black;
+  height: 1px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.navbar-nav a:hover:after {
+  width: 100%;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+  margin-top: 10px;
+}
+
 .navbar-nav .nav-item .dropdown-menu .submenu {
-  margin-left: 170px;
+  margin-left: 167px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .blog-submenu {
+  margin-left: 157px;
+}
+
+.navbar-nav .nav-item .dropdown-menu .elements-submenu {
+  margin-left: 157px;
 }
 
 #carousel .carousel {

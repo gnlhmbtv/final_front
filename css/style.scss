@@ -44,10 +44,37 @@
     margin-left: 0px;
 }
 .navbar-nav{
+    a{
+        position: relative;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 0.5px;
+        padding: 0 1px;
+    }
+    a:after{
+        content: "";
+        position: absolute;
+        background-color: black;
+        height: 1px;
+        width: 0;
+        left: 0;
+        bottom: -10px;
+        transition: 0.3s;
+    }
+    a:hover:after{
+        width: 100%;
+    }
     .nav-item{
         .dropdown-menu{
+            margin-top: 10px;
             .submenu{
-                margin-left: 170px;
+                margin-left: 167px;
+            }
+            .blog-submenu{
+                margin-left: 157px;
+            }
+            .elements-submenu{
+                margin-left: 157px;
             }
         }
     }
@@ -416,18 +443,6 @@
                                 margin-left: 350px;
                                 margin-bottom: 200px;
                             }
-                            // #span1{
-                            //     margin-left: -190px;
-                            //     margin-bottom: 500px;
-                            //     font-size: 20px;
-                            //     font-family: 'Playfair Display', serif;
-                            // }
-                            // #span2{
-                            //     margin-left: -190px;
-                            //     margin-bottom: 500px;
-                            //     font-size: 20px;
-                            //     font-family: 'Playfair Display', serif;
-                            // }
                             .text{
                                 margin-left: 150px;
                                 p{
