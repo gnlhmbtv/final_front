@@ -9,6 +9,11 @@
   outline: none;
 }
 
+.mega-menu:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
 .navbar {
   margin-left: 150px;
 }
