@@ -36,12 +36,12 @@
 
 .navbar{
     background-color: #fff !important;
-    padding: 20px 0px;
+    padding: 0px 0px;
     height: 120px;
 }
 .navbar-nav li:hover>ul.dropdown-menu{
     display: block;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 .navbar-nav{
     .nav-item{
@@ -52,9 +52,7 @@
         }
     }
 }
-.dropdown-submenu{
-    
-}
+
 #carousel{
     .carousel{
         position: relative;
