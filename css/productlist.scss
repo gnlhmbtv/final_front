@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+#title{
+    .title{
+        h1{
+           font-family: 'Playfair Display', serif;
+           font-size: 60px;
+           padding-top:80px ;
+           padding-left: 80px;
+        }
+        span{
+            font-family: 'Playfair Display', serif;
+            padding-left: 80px;
+            color: gray;
+            font-size: 18px;
+        }
+    }
+}
+#about{
+    margin-top: 80px;
+    .container{
+        .row{
+            .img{
+                .small-img{
+                    flex-direction: column;
+                    img{
+                        margin-top: 20px;
+                    }
+                }
+                .big-img{
+                    margin-left: 15px;
+                    margin-top: 20px;
+                }
+            }
+            .about{
+                width: 500px;
+                margin-left: 60px;
+                margin-top: 20px;
+                .title{
+                    h3{
+                        font-size: 45px;
+                        font-family: 'Playfair Display', serif;
+                    }
+                }
+                .price{
+                    color: gray;
+                    font-family: 'Poppins',serif;
+                    margin-top: -10px;
+                }
+                .description{
+                    margin-top: 20px;
+                    font-family: 'Playfair Display', serif;
+                    color: gray;
+                    font-size: 18px;
+                }
+                .add-to-card-quantity{
+                    .quantity{
+                        display: inline;
+                       #quantity-form{
+                           #quantity{
+                               height: 50px;
+                               width: 250px;
+                               border: 1px gray solid;
+                           }
+                       }
+                       .add-to-card{
+                           background-color: black;
+                           color: white;
+                           width: 300px; 
+                           height: 60px;
+                       }
+                    }
+                    
+                }
+            }
+        }
+    }
+}

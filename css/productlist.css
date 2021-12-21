@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+#title .title h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  padding-top: 80px;
+  padding-left: 80px;
+}
+
+#title .title span {
+  font-family: 'Playfair Display', serif;
+  padding-left: 80px;
+  color: gray;
+  font-size: 18px;
+}
+
+#about {
+  margin-top: 80px;
+}
+
+#about .container .row .img .small-img {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#about .container .row .img .small-img img {
+  margin-top: 20px;
+}
+
+#about .container .row .img .big-img {
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+#about .container .row .about {
+  width: 500px;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+#about .container .row .about .title h3 {
+  font-size: 45px;
+  font-family: 'Playfair Display', serif;
+}
+
+#about .container .row .about .price {
+  color: gray;
+  font-family: 'Poppins',serif;
+  margin-top: -10px;
+}
+
+#about .container .row .about .description {
+  margin-top: 20px;
+  font-family: 'Playfair Display', serif;
+  color: gray;
+  font-size: 18px;
+}
+
+#about .container .row .about .add-to-card-quantity .quantity {
+  display: inline;
+}
+
+#about .container .row .about .add-to-card-quantity .quantity #quantity-form #quantity {
+  height: 50px;
+  width: 250px;
+  border: 1px gray solid;
+}
+
+#about .container .row .about .add-to-card-quantity .quantity .add-to-card {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 60px;
+}
+/*# sourceMappingURL=productlist.css.map */

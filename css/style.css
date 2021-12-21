@@ -38,7 +38,7 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
   letter-spacing: 0.5px;
-  padding: 0 1px;
+  padding: 5px;
 }
 
 .navbar-nav a:after {
@@ -58,7 +58,7 @@
 }
 
 .navbar-nav .nav-item .dropdown-menu {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .navbar-nav .nav-item .dropdown-menu .submenu {
@@ -88,34 +88,14 @@
   margin-top: 60px;
   font-size: 40px;
   font-family: 'Playfair Display', serif;
-}
-
-#carousel .carousel .carousel-inner .text #black-slider-text-1 {
-  margin-left: 100px;
-}
-
-#carousel .carousel .carousel-inner .text #red-slider-text {
-  margin-left: 5px;
-}
-
-#carousel .carousel .carousel-inner .text #black-slider-text-2 {
-  margin-left: 5px;
-}
-
-#carousel .carousel .carousel-inner .text #black-slider-text-3 {
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 #carousel .carousel .carousel-inner .text p {
-  margin-left: 100px;
   width: 450px;
   color: gray;
   font-size: 18px;
   margin-top: 15px;
-}
-
-#carousel .carousel .carousel-inner .text img {
-  margin-left: 100px;
 }
 
 @-webkit-keyframes zoomin {
