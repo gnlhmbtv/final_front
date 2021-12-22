@@ -1,114 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/productlist.css">
-    <title>Product List</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/product-list.css">
+  <title>product List</title>
 </head>
+
 <body>
-    <!-- navbar start -->
-    <section id="navbar">
-        <nav class="navbar navbar-light bg-light navbar-expand-lg" id="myNavbar">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <!-- navbar start -->
+  <section id="navbar">
+    <nav class="navbar navbar-light bg-light navbar-expand-lg" id="myNavbar">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-          <a href="#" class="navbar-brand"><img src="/img/h2-logo-1.png" width="200px" alt=""></a>
-          <div class="collapse navbar-collapse" id="mainNav">
-            <ul class="navbar-nav ml-auto nav-fill">
+      <a href="#" class="navbar-brand"><img src="/img/h2-logo-1.png" width="200px" alt=""></a>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ml-auto nav-fill">
 
-              <li class="nav-item dropdown menu1">
-                <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
-                  aria-expanded="false">
-                  HOME
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Main Home</a></li>
-                  <li><a class="dropdown-item" href="#">Grid Home</a></li>
-                  <li><a class="dropdown-item" href="#">Flower Shop</a></li>
-                  <li><a class="dropdown-item" href="#">Animated Slider</a></li>
-                  <li><a class="dropdown-item" href="#">Metro Showcase</a></li>
-                  <li><a class="dropdown-item" href="#">Carousel Showcase</a></li>
-                  <li><a class="dropdown-item" href="#">Landing</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown menu2">
-                <a class="nav-link " href="#" id="navbarDropdownMenuLink">
-                  PAGES
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">About Us</a></li>
-                  <li><a class="dropdown-item" href="#">FAQ Page</a></li>
-                  <li><a class="dropdown-item" href="#">Contact Us</a></li>
-                </ul>
-              </li>
-
-
+          <li class="nav-item dropdown menu1">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              HOME
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Main Home</a></li>
+              <li><a class="dropdown-item" href="#">Grid Home</a></li>
+              <li><a class="dropdown-item" href="#">Flower Shop</a></li>
+              <li><a class="dropdown-item" href="#">Animated Slider</a></li>
+              <li><a class="dropdown-item" href="#">Metro Showcase</a></li>
+              <li><a class="dropdown-item" href="#">Carousel Showcase</a></li>
+              <li><a class="dropdown-item" href="#">Landing</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown menu2">
+            <a class="nav-link " href="#" id="navbarDropdownMenuLink">
+              PAGES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li><a class="dropdown-item" href="#">FAQ Page</a></li>
+              <li><a class="dropdown-item" href="#">Contact Us</a></li>
+            </ul>
+          </li>
 
 
-              <li class="nav-item px-4 dropdown mega-menu">
-                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHOP</a>
-                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="servicesDropdown">
-                 <div class="d-md-flex align-items-start justify-content-start">
-                  <div>
-                   <div class="dropdown-header">Product Types</div>
-                   <a class="dropdown-item" href="#">Standard Product</a>
-                   <a class="dropdown-item" href="#">Grouped Product</a>
-                   <a class="dropdown-item" href="#">Variable Product</a>
-                   <a class="dropdown-item" href="#">Virtual Product</a>
-                   <a class="dropdown-item" href="#">External Product</a>
-                   <a class="dropdown-item" href="#">Downloadable Product</a>
-                   <a class="dropdown-item" href="#">On Sale Product</a>
-                   <a class="dropdown-item" href="#">Out Of Stock Product</a>
-                   <a class="dropdown-item" href="#">New Product</a>
 
 
-                  </div>
-                  <div>
-                   <div class="dropdown-header">Shop Pages</div>
-                   <a class="dropdown-item" href="#">My Account</a>
-                   <a class="dropdown-item" href="#">Cart</a>
-                   <a class="dropdown-item" href="#">Checkout</a>
-                   <a class="dropdown-item" href="#">Orders</a>
-                   <a class="dropdown-item" href="#">Downloads</a>
+          <li class="nav-item px-4 dropdown mega-menu">
+            <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">SHOP</a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="servicesDropdown">
+              <div class="d-md-flex align-items-start justify-content-start">
+                <div>
+                  <div class="dropdown-header">product Types</div>
+                  <a class="dropdown-item" href="#">Standard product</a>
+                  <a class="dropdown-item" href="#">Grouped product</a>
+                  <a class="dropdown-item" href="#">Variable product</a>
+                  <a class="dropdown-item" href="#">Virtual product</a>
+                  <a class="dropdown-item" href="#">External product</a>
+                  <a class="dropdown-item" href="#">Downloadable product</a>
+                  <a class="dropdown-item" href="#">On Sale product</a>
+                  <a class="dropdown-item" href="#">Out Of Stock product</a>
+                  <a class="dropdown-item" href="#">New product</a>
 
-                  </div>
-                  <div>
-                   <div class="dropdown-header">Shop Types</div>
-                   <a class="dropdown-item" href="#">Product List</a>
-                   <a class="dropdown-item" href="#">Without Sidebar</a>
-                   <a class="dropdown-item" href="#">With Category Filter</a>
-                   <a class="dropdown-item" href="#">With Ordering Filter</a>
-                   <a class="dropdown-item" href="#">Shop Carousel</a>
-                   <a class="dropdown-item" href="#">Product Categories</a>
-                   <a class="dropdown-item" href="#">Single Category</a>
-                  </div>
 
-                  <div>
-                    <div class="dropdown-header">Shop Layouts</div>
-                    <a class="dropdown-item" href="#">Two Columns Grid</a>
-                    <a class="dropdown-item" href="#">Three Columns Grid</a>
-                    <a class="dropdown-item" href="#">Four Columns Grid</a>
-                    <a class="dropdown-item" href="#">Four Columns Wide</a>
-                    <a class="dropdown-item" href="#">Five Columns Wide</a>
-                    <a class="dropdown-item" href="#">Six Columns Wide</a>
-                   </div>
-                 </div>
                 </div>
-               </li>
+                <div>
+                  <div class="dropdown-header">Shop Pages</div>
+                  <a class="dropdown-item" href="#">My Account</a>
+                  <a class="dropdown-item" href="#">Cart</a>
+                  <a class="dropdown-item" href="#">Checkout</a>
+                  <a class="dropdown-item" href="#">Orders</a>
+                  <a class="dropdown-item" href="#">Downloads</a>
+
+                </div>
+                <div>
+                  <div class="dropdown-header">Shop Types</div>
+                  <a class="dropdown-item" href="#">product List</a>
+                  <a class="dropdown-item" href="#">Without Sidebar</a>
+                  <a class="dropdown-item" href="#">With Category Filter</a>
+                  <a class="dropdown-item" href="#">With Ordering Filter</a>
+                  <a class="dropdown-item" href="#">Shop Carousel</a>
+                  <a class="dropdown-item" href="#">product Categories</a>
+                  <a class="dropdown-item" href="#">Single Category</a>
+                </div>
+
+                <div>
+                  <div class="dropdown-header">Shop Layouts</div>
+                  <a class="dropdown-item" href="#">Two Columns Grid</a>
+                  <a class="dropdown-item" href="#">Three Columns Grid</a>
+                  <a class="dropdown-item" href="#">Four Columns Grid</a>
+                  <a class="dropdown-item" href="#">Four Columns Wide</a>
+                  <a class="dropdown-item" href="#">Five Columns Wide</a>
+                  <a class="dropdown-item" href="#">Six Columns Wide</a>
+                </div>
+              </div>
+            </div>
+          </li>
 
 
 
@@ -117,165 +115,448 @@
 
 
 
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PORTFOLIO</a>
-                <ul class="dropdown-menu">
-                  <li> <a class="dropdown-item" href="#">Standard</a></li>
-                  <li> <a class="dropdown-item" href="#">Gallery</a></li>
-                  <li> <a class="dropdown-item" href="#">Masonry</a></li>
-                  <li> <a class="dropdown-item" href="#"> Portfolio Layouts &gt; </a>
-                    <ul class="submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Two Columns</a></li>
-                      <li><a class="dropdown-item" href="#">Three Columns</a></li>
-                      <li><a class="dropdown-item" href="#">Four Columns</a></li>
-                      <li><a class="dropdown-item" href="#">Four Columns Wide</a></li>
-                      <li><a class="dropdown-item" href="#">Five Columns Wide</a></li>
-                    </ul>
-                  </li>
-                  <li> <a class="dropdown-item" href="#"> Portfolio Single &gt; </a>
-                    <ul class="submenu portfolio-submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Small Images</a></li>
-                      <li><a class="dropdown-item" href="#">Small Slider</a></li>
-                      <li><a class="dropdown-item" href="#">Big Images</a></li>
-                      <li><a class="dropdown-item" href="#">Big Slider</a></li>
-                      <li><a class="dropdown-item" href="#">Gallery</a></li>
-                    </ul>
-                  </li>
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">PORTFOLIO</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="#">Standard</a></li>
+              <li> <a class="dropdown-item" href="#">Gallery</a></li>
+              <li> <a class="dropdown-item" href="#">Masonry</a></li>
+              <li> <a class="dropdown-item" href="#"> Portfolio Layouts &gt; </a>
+                <ul class="submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Two Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Three Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Four Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Four Columns Wide</a></li>
+                  <li><a class="dropdown-item" href="#">Five Columns Wide</a></li>
                 </ul>
               </li>
-
-
-
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BLOG</a>
-                <ul class="dropdown-menu">
-                  <li> <a class="dropdown-item" href="#">Masonry</a></li>
-                  <li> <a class="dropdown-item" href="#">Standard</a></li>
-                  <li> <a class="dropdown-item" href="#"> Post Types &gt; </a>
-                    <ul class="submenu blog-submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Standard</a></li>
-                      <li><a class="dropdown-item" href="#">Gallery</a></li>
-                      <li><a class="dropdown-item" href="#">Link</a></li>
-                      <li><a class="dropdown-item" href="#">Quote</a></li>
-                      <li><a class="dropdown-item" href="#">Audio</a></li>
-                      <li><a class="dropdown-item" href="#">Video</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-
-
-
-              <li class="nav-item dropdown" id="myDropdown">
-                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">ELEMENTS</a>
-                <ul class="dropdown-menu">
-                  <li> <a class="dropdown-item" href="#"> Classic &gt; </a>
-                    <ul class="submenu elements-submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Accordions</a></li>
-                      <li><a class="dropdown-item" href="#">Tabs</a></li>
-                      <li><a class="dropdown-item" href="#">Button</a></li>
-                      <li><a class="dropdown-item" href="#">Video Button</a></li>
-                      <li><a class="dropdown-item" href="#">Contact Form</a></li>
-                      <li><a class="dropdown-item" href="#">Video</a></li>
-                    </ul>
-                  </li>
-                  <li> <a class="dropdown-item" href="#"> Infographic &gt; </a>
-                    <ul class="submenu elements-submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Blog List</a></li>
-                      <li><a class="dropdown-item" href="#">Counters</a></li>
-                      <li><a class="dropdown-item" href="#">Countdown</a></li>
-                      <li><a class="dropdown-item" href="#">Google Maps</a></li>
-                      <li><a class="dropdown-item" href="#">Progress Bar</a></li>
-                      <li><a class="dropdown-item" href="#">Pie Charts</a></li>
-                    </ul>
-                  </li>
-                  <li> <a class="dropdown-item" href="#"> Interactive &gt; </a>
-                    <ul class="submenu elements-submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Image Gallery</a></li>
-                      <li><a class="dropdown-item" href="#">Testimonials</a></li>
-                      <li><a class="dropdown-item" href="#">Team</a></li>
-                      <li><a class="dropdown-item" href="#">Banner</a></li>
-                      <li><a class="dropdown-item" href="#">Shop List</a></li>
-                      <li><a class="dropdown-item" href="#">Portfolio List</a></li>
-                    </ul>
-                  </li>
-                  <li> <a class="dropdown-item" href="#"> Typography&gt; </a>
-                    <ul class="submenu elements-submenu dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Headings</a></li>
-                      <li><a class="dropdown-item" href="#">Columns</a></li>
-                      <li><a class="dropdown-item" href="#">Section Title</a></li>
-                      <li><a class="dropdown-item" href="#">Blockquote</a></li>
-                      <li><a class="dropdown-item" href="#">Dropcaps</a></li>
-                      <li><a class="dropdown-item" href="#">Highlights</a></li>
-                      <li><a class="dropdown-item" href="#">Separators</a></li>
-                      <li><a class="dropdown-item" href="#">Custom Font</a></li>
-
-                    </ul>
-                  </li>
-                  <i class="fas fa-search"></i>
+              <li> <a class="dropdown-item" href="#"> Portfolio Single &gt; </a>
+                <ul class="submenu portfolio-submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Small imgs</a></li>
+                  <li><a class="dropdown-item" href="#">Small Slider</a></li>
+                  <li><a class="dropdown-item" href="#">Big imgs</a></li>
+                  <li><a class="dropdown-item" href="#">Big Slider</a></li>
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
                 </ul>
               </li>
             </ul>
-          </div>
-        </nav>
-      </section>
-    <!-- navbar end -->
+          </li>
 
-    <!-- title start -->
-    <section id="title">
-        <div class="title" style="background-color: rgb(250, 250, 249); height: 250px;">
-            <h1>Product List</h1>
-            <span><i>Where flowers are our inspiration</i></span>
-        </div>
-    </section>
-    <!-- title end -->
 
-    <!-- about product start -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 img d-flex">
-                    <div class="col-lg-3 small-img d-flex">
-                        <img src="/img/shop-2-gallery-1-300x400.jpg" width="120px" height="120px" alt="">
-                        <img src="/img/shop-2-gallery-4-300x400.jpg" width="120px" height="120px" alt="">
-                        <img src="/img/shop-2-gallery-3-300x400.jpg" width="120px" height="120px" alt="">
-                        <img src="/img/shop-2-gallery-2-300x400.jpg" width="120px" height="120px" alt="">
-                    </div>
-                    <div class="big-img">
-                        <img src="/img/shop-2-gallery-2.jpg" height="540px" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 about">
-                    <div class="title">
-                        <h3>Orange Amaryllis</h3>
-                    </div>
-                    <div class="price">
-                        <span id="dollar">$</span><span>259</span>
-                    </div>
-                    <div class="description">
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>
-                    </div>
-                    <div class="add-to-card-quantity">
-                        <div class="quantity">
-                            <form action="" id="quantity-form">
-                                <input type="number" name="" placeholder="Quantity" min="0" id="quantity">
-                            </form>
-                        </div>
-                        <div class="add-to-card">
-                            <span>ADD TO CART</span>
-                        </div>
-                    </  div>
-                    <div class="information">
-                        <span>SKU</span><span>989873</span>
-                        <span>Categories:</span><span>Various, Exotic</span>
-                        <span>Tags:</span><span>Llilies, Orchids</span>
-                    </div>
-                </div>
-                
+
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">BLOG</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="#">Masonry</a></li>
+              <li> <a class="dropdown-item" href="#">Standard</a></li>
+              <li> <a class="dropdown-item" href="#"> Post Types &gt; </a>
+                <ul class="submenu blog-submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Standard</a></li>
+                  <li><a class="dropdown-item" href="#">Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Link</a></li>
+                  <li><a class="dropdown-item" href="#">Quote</a></li>
+                  <li><a class="dropdown-item" href="#">Audio</a></li>
+                  <li><a class="dropdown-item" href="#">Video</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+
+
+
+          <li class="nav-item dropdown" id="myDropdown">
+            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">ELEMENTS</a>
+            <ul class="dropdown-menu">
+              <li> <a class="dropdown-item" href="#"> Classic &gt; </a>
+                <ul class="submenu elements-submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Accordions</a></li>
+                  <li><a class="dropdown-item" href="#">Tabs</a></li>
+                  <li><a class="dropdown-item" href="#">Button</a></li>
+                  <li><a class="dropdown-item" href="#">Video Button</a></li>
+                  <li><a class="dropdown-item" href="#">Contact Form</a></li>
+                  <li><a class="dropdown-item" href="#">Video</a></li>
+                </ul>
+              </li>
+              <li> <a class="dropdown-item" href="#"> Infographic &gt; </a>
+                <ul class="submenu elements-submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Blog List</a></li>
+                  <li><a class="dropdown-item" href="#">Counters</a></li>
+                  <li><a class="dropdown-item" href="#">Countdown</a></li>
+                  <li><a class="dropdown-item" href="#">Google Maps</a></li>
+                  <li><a class="dropdown-item" href="#">Progress Bar</a></li>
+                  <li><a class="dropdown-item" href="#">Pie Charts</a></li>
+                </ul>
+              </li>
+              <li> <a class="dropdown-item" href="#"> Interactive &gt; </a>
+                <ul class="submenu elements-submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">img Gallery</a></li>
+                  <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                  <li><a class="dropdown-item" href="#">Team</a></li>
+                  <li><a class="dropdown-item" href="#">Banner</a></li>
+                  <li><a class="dropdown-item" href="#">Shop List</a></li>
+                  <li><a class="dropdown-item" href="#">Portfolio List</a></li>
+                </ul>
+              </li>
+              <li> <a class="dropdown-item" href="#"> Typography&gt; </a>
+                <ul class="submenu elements-submenu dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Headings</a></li>
+                  <li><a class="dropdown-item" href="#">Columns</a></li>
+                  <li><a class="dropdown-item" href="#">Section Title</a></li>
+                  <li><a class="dropdown-item" href="#">Blockquote</a></li>
+                  <li><a class="dropdown-item" href="#">Dropcaps</a></li>
+                  <li><a class="dropdown-item" href="#">Highlights</a></li>
+                  <li><a class="dropdown-item" href="#">Separators</a></li>
+                  <li><a class="dropdown-item" href="#">Custom Font</a></li>
+
+                </ul>
+              </li>
+              <i class="fas fa-search"></i>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <!-- navbar end -->
+
+  <!-- product list start -->
+  <section id="title-section">
+    <div class="container px-3">
+      <div class="title">
+        <h1>Product List</h1>
+        <p>Where flowers are our inspiration</p>
+      </div>
+    </div>
+  </section>
+  <section id="product-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="product-img d-flex">
+            <div class="img1">
+              <div class="img">
+                <img src="/img/product/shop-2-gallery-2-300x400 (1).jpg" alt="product img">
+              </div>
+              <div class="img">
+                <img src="/img/product/shop-2-gallery-3-300x400 (1).jpg" alt="product img">
+              </div>
+              <div class="img">
+                <img src="/img/product/shop-2-gallery-4-300x400 (1).jpg" alt="product img">
+              </div>
+              <div class="img">
+                <img src="/img/product/shop-2-img-300x400 (2).jpg" alt="product img">
+              </div>
             </div>
+            <div class="img2">
+              <div class="img">
+                <img src="/img/product/shop-2-gallery-3 (1).jpg" alt="product img">
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-    <!-- about product end -->
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="content">
+            <h2 class="m-0">Orange Amaryllis</h2>
+            <span>$259</span>
+            <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+              himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a
+              augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>
+            <div class="addtocard-quantity d-flex">
+              <div class="col-lg-7 col-md-12 col-sm-7 p-0">
+                <div class="quantity d-flex justify-content-between" style="border: 1px solid #eee;">
+                  <span>Quantity</span>
+                  <div class="quantity-num">
+                    <i id="countersub" class="fas fa-caret-left"></i>
+                    <span id="productcount" class="product_count">1</span>
+                    <i id="counteradd" class="fas fa-caret-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-md-12 col-sm-5 p-0">
+                <button type="submit" class="add-to-cart addBasket2">
+                  Add to cart
+                </button>
+              </div>
+            </div>
+            <div class="product-info">
+              <p>SKU: <span>989873</span></p>
+              <p>Categories: <span>Various, Exotic</span></p>
+              <p>Tags: <span>Llilies, Orchids</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <section id="tabmenu-product">
+    <div class="container">
+      <div class="row px-3">
+        <div class="col-12">
+          <div class="menus d-flex">
+            <div class="menu selected" data-id="1" onclick="">
+              Description
+            </div>
+            <div class="menu" data-id="2">
+              Additional information
+            </div>
+            <div class="menu" data-id="3">
+              Reviews (2)
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <div class="contents">
+            <div class="content" data-id="1">
+              <h3>The power of flowers</h3>
+              <p class="m-0">
+                Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra
+                nulla
+                ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel
+                augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas
+                tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing
+                sem
+                neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.
+                Maecenas nec odio et ante
+              </p>
+            </div>
+            <div class="content d-none" data-id="2">
+              <p class="m-0"><strong>Weight:</strong> <span>1 kg</span></p>
+              <p class="m-0"><strong>Dimensions:</strong> <span>30 x 30 x 50 cm</span></p>
+            </div>
+            <div class="content d-none" data-id="3">
+              <div class="reviews">
+                <h2>Reviews</h2>
+                <div class="comments">
+                  <div class="comment_area mb-3 d-flex">
+                    <div class="col-lg-1 col-md-2 col-3 px-2">
+                      <div class="img">
+                        <img src="/img/user-img-1-100x100.png" alt="Commenter">
+                      </div>
+                    </div>
+                    <div class="col-lg-11 col-md-10 col-9">
+                      <div class="comment">
+                        <p class="mb-2">
+                          <strong>Joshua Garcia </strong>
+                          <span>27.04.2018</span>
+                        </p>
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                          commodo ligula eget dolor. Aenean massa. Cum sociis Theme
+                          natoque
+                          penatibus et magnis dis parturient montes, nascetur ridiculus
+                          mus.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="comment_area d-flex">
+                    <div class="col-lg-1 col-md-2 col-3 px-2">
+                      <div class="img">
+                        <img src="/img/user-img-2-100x100.png" alt="Commenter">
+                      </div>
+                    </div>
+                    <div class="col-lg-11 col-md-10 col-9">
+                      <div class="comment">
+                        <p class="mb-2">
+                          <strong>Joan Stanley</strong>
+                          <span>27.04.2018</span>
+                        </p>
+                        <p>
+                          Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus,
+                          sem
+                          quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam
+                          quam nunc, blandit vel, luctus pulvinar, hendrerit
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="add_reviews">
+                <h2>Add a review</h2>
+                <div class="review">
+                  <p>Your email address will not be published. Required fields are marked
+                    <sup>*</sup>
+                  </p>
+                  <form action="#" class="form-group">
+                    <div>
+                      <label>Your review <sup>*</sup></label><br>
+                      <textarea name="your_review" id="your_review" cols="45" rows="8" aria-required="true"
+                        required></textarea>
+                    </div>
+                    <div>
+                      <label>Name<sup>*</sup></label>
+                      <input class="form-control" type="text" id="author" name="author" size="30" aria-required="true"
+                        required>
+                    </div>
+                    <div>
+                      <label>Email<sup>*</sup></label>
+                      <input class="form-control" type="email" id="email" name="email" size="30" aria-required="true"
+                        required>
+                    </div>
+                    <div>
+                      <input type="checkbox" value="yes" id="" name="">
+                    </div>
+                    <p>Save my name, email, and website in this browser for the next time I
+                      comment.</p>
+                    <input class="button" type="submit" name="submit" id="submit" value="submit">
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="product_list_products">
+    <div class="container p-0">
+      <div class="row w-100 m-0 p-0">
+        <h2>RELATED PRODUCTS</h2>
+        <div class="all_product same_product" data-id="1">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="card">
+                <div class="img">
+                  <img src="/img/product/shop-2-img-300x400 (2).jpg" title="Cactus In Orange" alt="product 1">
+                  <div class="info">
+                    <span>Sold</span>
+                  </div>
+                </div>
+                <div class="title text-center">
+                  <p>CACTUS IN ORANGE</p>
+                  <div class="add_to_cart">
+                    <p>Read more</p>
+                  </div>
+                  <div class="price">
+                    <p>$259</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="card">
+                <div class="img">
+                  <img src="/img/product/shop-5-img-300x400.jpg" title="Schefflera" alt="product 2">
+                  <div class="info new">
+                    <span style="background: white;">New</span>
+                  </div>
+                </div>
+                <div class="title text-center">
+                  <p>SCHEFFLERA</p>
+                  <div class="add_to_cart">
+                    <p>Add to cart</p>
+                  </div>
+                  <div class="price">
+                    <p>$259</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="card">
+                <div class="img">
+                  <img src="/img/product/shop-7-img-300x400.jpg" title="Rock Soapwort" alt="product 3">
+                </div>
+                <div class="title text-center">
+                  <p>ROCK SOAPWORT</p>
+                  <div class="add_to_cart">
+                    <p>View products</p>
+                  </div>
+                  <div class="price">
+                    <p>$259</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-xs-12">
+              <div class="card">
+                <div class="img">
+                  <img src="/img/product/shop-13-img-300x400.jpg" title="Wild Cactus" alt="product 4">
+                  <div class="info sale">
+                    <span style="background: #f34f3f;">Sale</span>
+                  </div>
+                </div>
+                <div class="title text-center">
+                  <p>WILD CACTUS</p>
+                  <div class="add_to_cart">
+                    <p>Add to cart</p>
+                  </div>
+                  <div class="price">
+                    <span><del>$259</del></span>
+                    <span>$159</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- product list end -->
+
+  <!-- footer start -->
+  <section id="footer">
+    <div class="container footer">
+      <footer class="row row-cols-5 py-5 my-5 border-top">
+
+        <div class="col">
+          <h5>CUSTOMER SERVICE</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help & Contact Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Returns & Refunds</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Online Stores</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>COMPANY</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Order Tracking</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQ Page</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contact Us</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Login</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>SOCIAL MEDIA</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Twitter</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Instagram</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tumblr</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pinterest</a></li>
+          </ul>
+        </div>
+
+        <div class="col">
+          <h5>ARCHIVE</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Designer Shoes</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Gallery</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Feature Index</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Login</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Help & Support</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section>
+  <!-- footer end -->
 </body>
-<script src="/js/home.js"></script>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </html>

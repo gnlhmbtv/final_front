@@ -30,7 +30,6 @@
 
 .navbar-nav li:hover > ul.dropdown-menu {
   display: block;
-  margin-left: 0px;
 }
 
 .navbar-nav a {
@@ -432,7 +431,7 @@ ul li:hover {
   color: gray;
 }
 
-#florist-slider .florist-slider {
+/* #florist-slider .florist-slider {
   height: 350px;
   margin-top: 100px;
   margin-left: 5  0px;
@@ -458,6 +457,27 @@ ul li:hover {
   font-size: 25px;
   font-family: 'Playfair Display', serif;
   color: #504f4f;
+} */
+#slider2 .item .img img {
+  width: 87px;
+  height: 87px;
+  border-radius: 50%;
+}
+
+#slider2 .item .text i {
+  font-family: Lora, serif;
+  font-size: 24px;
+  line-height: 1.5em;
+}
+
+#slider2 .item .author h6 {
+  font-size: 12px;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+#slider2 .item .author p {
+  font-size: 12px;
 }
 
 #footer {
