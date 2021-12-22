@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#title-section .title > h1{
+    font-family: 'Playfair Display', serif;
+}
+#shoplist{
+    margin-top: 50px;
+}
+
 #shoplist .container .row .card{
     width: 270px;
     height: 270px;
@@ -196,7 +208,7 @@
     width: 190px;
     height: 190px;
 }  
-#shoplist .container .row .card-bottom .name-bottom{
+#shoplist .container .row .card-bottom .category-title{
     line-height: 1;
     margin: 0 0 12px;
     color: #1b1b1b;
@@ -209,10 +221,13 @@
     position: relative;
     left: 38px;
 }
-#shoplist .container .row .card-bottom .price-bottom{
+#shoplist .container .row .card-bottom .category-price{
     font-family: Montserrat,sans-serif;
     position: relative;
     top: 25px;
     left: -27px;
     color: #afafaf;
+}
+#shoplist{
+    margin-bottom: 150px;
 }
